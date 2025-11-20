@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: #00ffcc;
+  text-align: center;
+  padding: 40px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.btn, button {
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.box {
+  border: 1px solid #00ffcc;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+}
